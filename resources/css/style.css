@@ -1,1 +1,19 @@
-
+html {
+  font-size: 18px;
+  font-family: helvetica;
+  color: white;
+}
+/* header section */
+.head {
+  background-color: black;
+}
+.head_container {
+  width: 960px;
+  display: flex;
+  align-items: center;
+}
+.head_container img {
+  height: 1.5rem;
+  margin-left: 0.5rem;
+  margin-right: 1rem;
+}
