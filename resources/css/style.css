@@ -115,3 +115,40 @@ footer {
 footer p {
   width: 960px;
 }
+
+/* media query */
+@media only screen and (max-width: 1024px) {
+  .pen {
+    margin-right: 2.70rem;
+}
+  .watch {
+    margin-left: 2.70rem;
+  }
+  .glasses {
+    display: none;
+  }
+  .location {
+    margin-right: 0.5rem;
+  }
+  .hours {
+    margin-left: 0.5rem;
+  }
+  .navigation_list {
+    display: none;
+  }
+  .products {
+    justify-content: center;
+  }
+  .information {
+    justify-content: center;
+  }
+
+}
+@media only screen and (min-width: 1024px) {
+  .tablet_nav_list {
+    display: none;
+  }
+}
+@media only screen and (max-width: 470px) {
+
+  }
