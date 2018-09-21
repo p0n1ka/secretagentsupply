@@ -36,7 +36,6 @@ html {
   width: 20rem;
   padding: 2rem 3rem;
   height: auto;
-  margin-left: 4.5rem;
 }
 /* new arrival block text */
 .new_arrival h1 {
@@ -142,13 +141,45 @@ footer p {
   .information {
     justify-content: center;
   }
-
-}
-@media only screen and (min-width: 1024px) {
-  .tablet_nav_list {
+  .navigation_list {
     display: none;
   }
 }
-@media only screen and (max-width: 470px) {
-
+@media only screen and (min-width: 1024px) {
+  .new_arrival {
+    margin-left: 4.5rem;
   }
+}
+@media only screen and (max-width: 470px) {
+    .main {
+      height: 15rem;
+      align-items: flex-end;
+    }
+    .new_arrival {
+      width: 100%;
+      padding: 1rem 2rem;
+    }
+    .new_arrival h1 {
+      font-size: 1rem;
+    }
+    .new_arrival h2 {
+      font-size: 0.77rem;
+    }
+    .watch, .glasses {
+      display: none;
+    }
+    .products {
+      width: 470px;
+    }
+    .pen {
+      width: 90%;
+    }
+    .information {
+      width: 470px;
+      flex-direction: column;
+      margin: 3rem
+    }
+    .location, .hours {
+      width: 90%;
+    }
+}
